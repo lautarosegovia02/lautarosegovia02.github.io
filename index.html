@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diagnósticos Patología Veterinaria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2c3e50;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex: 1; /* Para que el contenido ocupe el máximo posible antes del footer */
+        }
+
+        h2 {
+            color: #34495e;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .highlight {
+            background-color: #ecf0f1;
+            border-left: 5px solid #3498db;
+            padding: 10px;
+            margin: 20px 0;
+        }
+
+        .btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Diagnósticos Patología Veterinaria</h1>
+</header>
+
+<nav>
+    <a href="#proyecto">Proyecto</a>
+    <a href="#avances">Avances</a>
+    <a href="#mapas">Mapas</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="proyecto">
+    <h2>Sobre el Proyecto</h2>
+    <p>Este proyecto busca la recolección, georreferenciación y análisis de datos veterinarios de diversos establecimientos, utilizando tecnología geoespacial para facilitar el análisis de la distribución de diagnósticos.</p>
+    <div class="highlight">
+        <h3>Objetivos:</h3>
+        <ul>
+            <li>Mejorar la toma de decisiones veterinarias mediante datos georreferenciados.</li>
+            <li>Mapear los casos en archivos compatibles con Google Earth, QGIS y más.</li>
+            <li>Fomentar el análisis geoespacial en el campo veterinario.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="avances">
+    <h2>Avances del Proyecto</h2>
+    <p>En esta sección se irán documentando los avances del proyecto. A continuación, puedes encontrar enlaces a las últimas actualizaciones:</p>
+    <ul>
+        <li><a href="actualizacion-01.html" class="btn">Actualización 01 - Georreferenciación Inicial</a></li>
+        <li><a href="actualizacion-02.html" class="btn">Actualización 02 - Integración con Google Earth</a></li>
+    </ul>
+</section>
+
+<section id="mapas">
+    <h2>Mapas y Datos</h2>
+    <p>Aquí puedes acceder a los diferentes mapas geoespaciales generados por el proyecto:</p>
+    <ul>
+        <li><a href="mapa-diagnosticos.kml" class="btn">Mapa de Diagnósticos (KML)</a></li>
+        <li><a href="mapa-diagnosticos.geojson" class="btn">Mapa de Diagnósticos (GeoJSON)</a></li>
+        <li><a href="diagnosticos-shp.zip" class="btn">Descargar Archivos SHP</a></li>
+    </ul>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si tienes alguna consulta o deseas colaborar con el proyecto, puedes enviarnos un mensaje a:</p>
+    <p><strong>Email:</strong> <a href="mailto:segovia.lautaro@inta.gob.ar">segovia.lautaro@inta.gob.ar</a></p>
+</section>
+
+<footer>
+    <p>© 2024 Diagnósticos Patología Veterinaria. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
